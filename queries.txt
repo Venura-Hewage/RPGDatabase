@@ -1,0 +1,10 @@
+CREATE TABLE SKILLS (
+ID int,
+Name varchar(100),
+Description varchar(100),
+Mana int,
+Damage int,
+Target ENUM,
+ElementalAffinity ENUM
+);
+
